@@ -14,5 +14,6 @@ Discription:
 2) Press the 'Data' button and select the folder containing all your data files in the "\*.csv" format. The application will then determine the location of each of the required columns and use the RS ID value to link the data row to a SNP in the manifest file. If SNP is found to be located on a chromosome (1-22, X or Y), the application checks the value in the "Call Freq" column, if this is less than one (not all the probes for this SNP gave a result) the SNP will be scored as "No Call". Next the program will check the "AA Freq",	"AB Freq" and	"BB Freq" columns, if one contains the value of "1" a genotype will be given for that SNP. For example if "AA Freq" = 0,	"AB Freq" = 1 and	"BB Freq" = 0, the SNP will be given a genotype call of AB.
 3) The SNP data will be saved in a "\*.xls" file with the same name and path as the original "\*.csv" file. 
 
+Note: If any of the files are open in another program like Excel, the program may be blocked from reading the file and appear to do nothing as no warnings will be given.
 
 Precompiled binaries: The repro contains the compiled program (CytoSNPToAffymetrix.exe) which can be downloaded and run on any Windows machine with an uptodate version of the .NET frame work installed. However, Windows will nag you about it been a posible secruity risk: ignore.
