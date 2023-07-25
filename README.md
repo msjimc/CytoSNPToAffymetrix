@@ -15,4 +15,4 @@ Discription:
 3) The SNP data will be saved in a "\*.xls" file with the same name and path as the original "\*.csv" file. 
 
 
-Precompiled binaries: The repro contains the compiled program (CytoSNPToAffymetrix.exe) which can be downloaded and run on any Windows machine with an uptodate version of the .NET frame work installed.
+Precompiled binaries: The repro contains the compiled program (CytoSNPToAffymetrix.exe) which can be downloaded and run on any Windows machine with an uptodate version of the .NET frame work installed. However, Windows will nag you about it been a posible secruity risk: ignore.
